@@ -1,7 +1,8 @@
 module processor;
 reg [31:0] pc; //32-bit prograom counter
 reg clk; //clock
-reg [7:0] datmem[0:31],mem[0:31]; //32-size data and instruction memory (8 bit(1 byte) for each location)
+reg [7:0] datmem[0:31];
+reg [7:0] mem[0:31]; //32-size data and instruction memory (8 bit(1 byte) for each location)
 wire [31:0] 
 dataa,	//Read data 1 output of Register File
 datab,	//Read data 2 output of Register File
@@ -31,7 +32,7 @@ wire [2:0] gout;	//Output of ALU control unit
 wire zout,	//Zero output of ALU
 pcsrc,	//Output of AND gate with Branch and ZeroOut inputs
 //Control signals
-regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,aluop1,aluop0;
+regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,aluop1,aluop0,andisignal;
 
 //32-size register file (32 bit(1 word) for each register)
 reg [31:0] registerfile[0:31];
@@ -40,7 +41,7 @@ integer i;
 
 // datamemory connections
 
-always @(negedge clk)
+always @(posedge clk)
 //write data to memory
 if (memwrite)
 begin 
@@ -100,14 +101,14 @@ adder add1(pc,32'h4,adder1out);
 adder add2(adder1out,sextad,adder2out);
 
 //Control unit
-control cont(instruc[31:26],regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,
-aluop1,aluop0);
+control cont(instruc[3:0],instruc[31:26], regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,
+aluop1,aluop0,andisignal);
 
 //Sign extend unit
 signext sext(instruc[15:0],extad);
 
 //ALU control unit
-alucont acont(aluop1,aluop0,instruc[3],instruc[2], instruc[1], instruc[0] ,gout);
+alucont acont(aluop1,aluop0,instruc[3],instruc[2], instruc[1], instruc[0] ,andisignal,gout);
 
 //Shift-left 2 unit
 shift shift2(sextad,extad);
@@ -131,7 +132,7 @@ end
 initial
 begin
 pc=0;
-#400 $finish;
+//#400 $finish;
 	
 end
 initial
