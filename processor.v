@@ -32,7 +32,7 @@ wire [2:0] gout;	//Output of ALU control unit
 wire zout,	//Zero output of ALU
 pcsrc,	//Output of AND gate with Branch and ZeroOut inputs
 //Control signals
-regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,aluop1,aluop0,andisignal;
+regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,aluop2,aluop1,aluop0,andisignal;
 
 //32-size register file (32 bit(1 word) for each register)
 reg [31:0] registerfile[0:31];
@@ -101,14 +101,14 @@ adder add1(pc,32'h4,adder1out);
 adder add2(adder1out,sextad,adder2out);
 
 //Control unit
-control cont(instruc[3:0],instruc[31:26], regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,
+control cont(instruc[3:0],instruc[31:26], regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,aluop2,
 aluop1,aluop0,andisignal);
 
 //Sign extend unit
 signext sext(instruc[15:0],extad);
 
 //ALU control unit
-alucont acont(aluop1,aluop0,instruc[3],instruc[2], instruc[1], instruc[0] ,andisignal,gout);
+alucont acont(aluop2, aluop1,aluop0,instruc[3],instruc[2], instruc[1], instruc[0] ,andisignal,gout);
 
 //Shift-left 2 unit
 shift shift2(sextad,extad);
