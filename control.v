@@ -1,4 +1,4 @@
-module control(in,regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,aluop1,aluop2,andisignal);
+module control(fcode,in,regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,aluop1,aluop2,andisignal);
 input [5:0] in;
 input [3:0] fcode;
 output regdest,alusrc,memtoreg,regwrite,memread,memwrite,branch,aluop1,aluop2,andisignal;
