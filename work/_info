@@ -9,191 +9,212 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented
 vadder
-Z0 !s110 1591957933
+!s110 1591997415
 !i10b 1
 !s100 Y;`Fz?LjC0QzPeNWf8_U<1
 I2jaf9=Y3?B<d6Ih35a^j61
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented
 w955028208
 8C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/adder.v
 FC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/adder.v
 L0 1
-Z3 OP;L;10.4a;61
+Z2 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z4 !s108 1591957933.000000
+!s108 1591997415.000000
 !s107 C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/adder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/adder.v|
 !s101 -O0
 !i113 1
-Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
 valu32
-R0
+Z4 !s110 1591997416
 !i10b 1
-!s100 JNgP4XYKGMjXbDK?_T]Xk2
-I11GfC31>a;_GQmVGbG@C83
+!s100 oh^beo>K>dZjLQB^<@mkc0
+IEJOC_QnYF;gdCeLWb7jZF3
+R0
 R1
-R2
-w1524644522
+w1591997259
 8C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/alu32.v
 FC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/alu32.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R4
+Z5 !s108 1591997416.000000
 !s107 C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/alu32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/alu32.v|
 !s101 -O0
 !i113 1
-R5
+R3
 valucont
-R0
+R4
 !i10b 1
-!s100 3GA6Vd0j^aBRlH9lB5Jz<3
-I2KXmGZjNbzkCi`04zjM1T1
+!s100 HIP`SJ=Y7z>J1kD_ni;]f1
+Ik^_gKD6WKG8`FPEZQcBc61
+R0
 R1
-R2
-w1591952880
+w1591996430
 8C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/alucont.v
 FC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/alucont.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R4
+R5
 !s107 C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/alucont.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/alucont.v|
 !s101 -O0
 !i113 1
-R5
+R3
 vcontrol
-R0
+R4
 !i10b 1
-!s100 ?fin2FR]5R62:[`dE:<dX0
-I]M[K115o:^j<z:`Qml:Vf1
+!s100 lL=VeV8PZSWDM:GT@E];o2
+I9AK4ie3@[Oa]lm20fEK1m1
+R0
 R1
-R2
-w1591954843
+w1591995877
 8C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/control.v
 FC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/control.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R4
+R5
 !s107 C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/control.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/control.v|
 !s101 -O0
 !i113 1
-R5
+R3
 vmult2_to_1_32
-Z6 !s110 1591957934
+R4
 !i10b 1
 !s100 ^aXF>kbOQm5iDYT=bV7M11
 Ig8>PGcihzbm?3[9^5nRZH1
+R0
 R1
-R2
 w1021135086
 8C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_32.v
 FC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_32.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-Z7 !s108 1591957934.000000
+R5
 !s107 C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_32.v|
 !s101 -O0
 !i113 1
-R5
+R3
 vmult2_to_1_5
-R0
+R4
 !i10b 1
 !s100 k]2`0V2=b67f6kc:ca8eK0
 IMMECYA=aI8Ze9mI7Tf3DQ0
+R0
 R1
-R2
 w955028066
 8C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_5.v
 FC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_5.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R4
+R5
 !s107 C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_5.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_5.v|
 !s101 -O0
 !i113 1
-R5
+R3
 vprocessor
-R6
+R4
 !i10b 1
-!s100 k3jL5I;VEGT=7ZI:gOz2b0
-I<JjEWU>aj8FzAoLaGeM8k3
+!s100 fj79AAcfIVee]miOaQE6>0
+IRinGZ1cnhO7HB;HnDJKlI2
+R0
 R1
-R2
-w1591957844
+w1591997412
 8C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v
 FC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R7
+R5
 !s107 C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v|
 !s101 -O0
 !i113 1
-R5
+R3
 vshift
-R6
+R4
 !i10b 1
 !s100 GWP55OEfIRVA_6M>iSY8d2
 IT@DTLRZIH=ZaTzO=LbEV>3
+R0
 R1
-R2
 w955028064
 8C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/shift.v
 FC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/shift.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R7
+R5
 !s107 C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/shift.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/shift.v|
 !s101 -O0
 !i113 1
-R5
+R3
 vsignext
-R6
+Z6 !s110 1591997417
 !i10b 1
 !s100 JAEfRFLIAaX=@V<j@h[jS1
 IJS8BBzm<99fHe5Vd_SZ]?0
+R0
 R1
-R2
 w1335991790
 8C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/signext.v
 FC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/signext.v
 L0 1
-R3
+R2
 r1
 !s85 0
 31
-R7
+Z7 !s108 1591997417.000000
 !s107 C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/signext.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/signext.v|
 !s101 -O0
 !i113 1
-R5
+R3
+vzeroextend
+R6
+!i10b 1
+!s100 YPKz]L390Mb]dhFIdA:LF3
+IFG?EIj3<?3:ULFBKSGcWm2
+R0
+R1
+w1591967223
+8C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/zeroextend.v
+FC:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/zeroextend.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/zeroextend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/zeroextend.v|
+!s101 -O0
+!i113 1
+R3
