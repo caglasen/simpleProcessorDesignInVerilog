@@ -1,9 +1,20 @@
-C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/zeroextend.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/zeroextend.v
+C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult4_to_1_32.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult4_to_1_32.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module zeroextend
+-- Compiling module mult4_to_1_32
 
 Top level modules:
-	zeroextend
+	mult4_to_1_32
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v {2 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module processor
+** Warning: C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v(92): (vlog-2697) MSB of part-select into 'pcPlusFour' is out of bounds.
+
+** Warning: C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v(92): (vlog-2697) LSB of part-select into 'pcPlusFour' is out of bounds.
+
+
+Top level modules:
+	processor
 
 } {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/adder.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/adder.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -26,12 +37,26 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	shift
 
-} {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_32.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_32.v
+} {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/alu32.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/alu32.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module mult2_to_1_32
+-- Compiling module alu32
 
 Top level modules:
-	mult2_to_1_32
+	alu32
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/zeroextend.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/zeroextend.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module zeroextend
+
+Top level modules:
+	zeroextend
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/control.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/control.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module control
+
+Top level modules:
+	control
 
 } {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_5.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_5.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -39,5 +64,19 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	mult2_to_1_5
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_32.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/mult2_to_1_32.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mult2_to_1_32
+
+Top level modules:
+	mult2_to_1_32
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/JumpBranchcontrol.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/JumpBranchcontrol.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module jumpbrcontrol
+
+Top level modules:
+	jumpbrcontrol
 
 } {} {}}
