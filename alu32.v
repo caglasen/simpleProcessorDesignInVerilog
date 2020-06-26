@@ -6,9 +6,11 @@ input [2:0] gin;//ALU control line
 reg [31:0] sum;
 reg [31:0] less;
 output zout,nout; //nout eklendi************
-reg zout;
+reg zout,nout;
 always @(a or b or gin)
 begin
+	zout=0;
+	nout=0;
 	case(gin)
 	3'b010: sum=a+b; 		//ALU control line=010, ADD
 	3'b110: sum=a+1+(~b);	//ALU control line=110, SUB
@@ -22,6 +24,6 @@ begin
 	default: sum=31'bx;	
 endcase
 zout=~(|sum);
-nout==sum[31]; //if the first bit is 1, then this means result is negative**********************
+nout=sum[31]; //if the first bit is 1, then this means result is negative**********************
 end
 endmodule

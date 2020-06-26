@@ -5,13 +5,9 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	mult4_to_1_32
 
-} {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v {2 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v
+} {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module processor
-** Warning: C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v(92): (vlog-2697) MSB of part-select into 'pcPlusFour' is out of bounds.
-
-** Warning: C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/processor.v(92): (vlog-2697) LSB of part-select into 'pcPlusFour' is out of bounds.
-
 
 Top level modules:
 	processor
@@ -29,6 +25,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	signext
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/alucont.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/alucont.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alucont
+
+Top level modules:
+	alucont
 
 } {} {}} C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/shift.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/singlecycleMIPS-lite-commented/singlecycleMIPS-lite-commented/shift.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
